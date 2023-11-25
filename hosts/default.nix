@@ -1,4 +1,4 @@
-{ lib, inputs, nixpkgs, home-manager, ... }:
+{ lib, inputs, nixpkgs, home-manager, hyprland, ... }:
 
 let
   system = "x86_64-linux";                                  # System Architecture
@@ -14,7 +14,7 @@ in
   desktop = lib.nixosSystem {
     inherit system;
     specialArgs = {
-      inherit inputs system;
+      inherit inputs system hyprland;
       host = {
         hostName = "nietos";
       };

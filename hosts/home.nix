@@ -8,8 +8,8 @@
         flameshot
         bitwarden
         kdenlive
-        mediainfo
-        glaxnimate
+        #mediainfo
+        #glaxnimate
         audacity
         gimp
         discord
@@ -22,6 +22,8 @@
         nodejs_20
         yarn
         alacritty
+        iw
+        obs-studio
       ];
     };
 
@@ -44,10 +46,10 @@
       vscode = {
         enable = true;
         userSettings = {
-          "workbench.iconTheme" = "eq-material-theme-icons";
+          "workbench.iconTheme" = "vscode-icons-team.vscode-icons";
           "explorer.confirmDragAndDrop" = false;
           "explorer.confirmDelete" = false;
-          "workbench.colorTheme" = "Gruvbox Dark Hard";
+          "workbench.colorTheme" = "Thanatos";
           "redhat.telemetry.enabled" = false;
           "editor.formatOnSave" = true;
           "editor.defaultFormatter" = "esbenp.prettier-vscode";

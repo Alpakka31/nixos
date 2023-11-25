@@ -89,6 +89,8 @@
      mtools
      ntfs3g
      btrfs-progs
+     blueman
+     polkit_gnome
   ];
 
   programs = {
@@ -115,6 +117,9 @@
     };
     openssh = {
       enable = false;
+    };
+    blueman = {
+      enable = true;
     };
   };
 

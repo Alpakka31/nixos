@@ -46,8 +46,11 @@
     ];
   };
 
-  gnome.enable = true;
+  # Enable GNOME
+  #gnome.enable = true;
   
+  # Enable Hyprland
+  hyprland.enable = true;
 
   # Overlays
   nixpkgs.overlays = [
